@@ -1,0 +1,51 @@
+body{
+    /* Background generated from https://uigradients.com */
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+    background: linear-gradient(to top, #2c3e50, #bdc3c7);
+    background-repeat: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: #71f2fc;
+    background-color: HSL(184, 50%, 72%);
+    border: 5px solid #163948;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #163948;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transform: scale(1);
+    transition: all 250ms;
+}
+
+button:hover{
+    background-color: #6be8f3;
+    transform: scale(1.1);
+}
+
+.happy{
+    /* Background generated from https://uigradients.com */
+    background: #fc4a1a;
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);
+    background: linear-gradient(to left, #f7b733, #fc4a1a);
+}
+
